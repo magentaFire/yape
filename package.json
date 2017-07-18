@@ -1,6 +1,6 @@
 {
   "name": "yape_magenta",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Solución del Proyeto final del Sprint 5 - Yape!",
   "main": "server.js",
   "scripts": {

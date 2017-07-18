@@ -1,4 +1,10 @@
-body {
-  height: 200px; }
+.carousel {
+  overflow: visible; }
+
+.carousel .indicators .indicator-item {
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+
+.carousel .carousel-item img {
+  width: 60% !important; }
 
 /*# sourceMappingURL=main.css.map */
