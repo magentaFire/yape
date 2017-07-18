@@ -5,6 +5,12 @@
   background-color: rgba(0, 0, 0, 0.5) !important; }
 
 .carousel .carousel-item img {
-  width: 60% !important; }
+  margin-top: 5vh;
+  width: 85% !important; }
+
+.btn, .btn-large, .btn-large:hover {
+  background-color: #fbd43b !important; }
+  .btn:hover, .btn-large:hover {
+    background-color: #fbd43b !important; }
 
 /*# sourceMappingURL=main.css.map */
