@@ -1,10 +1,11 @@
 {
-  "name": "yape-solution",
+  "name": "yape_magenta",
   "version": "1.0.0",
   "description": "Solución del Proyeto final del Sprint 5 - Yape!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -14,6 +15,17 @@
     "levelup": "^1.3.8",
     "morgan": "^1.8.2",
     "morgan-json": "^1.1.0",
-    "random-number": "0.0.7"
-  }
+    "random-number": "0.0.7",
+    "sass": "^1.0.0-beta.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magentaFire/yape.git"
+  },
+  "author": "Magenta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magentaFire/yape/issues"
+  },
+  "homepage": "https://github.com/magentaFire/yape#readme"
 }
