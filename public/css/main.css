@@ -13,4 +13,14 @@
   .btn:hover, .btn-large:hover {
     background-color: #fbd43b !important; }
 
+.phone-image {
+  width: 20vw;
+  margin-top: 12vh; }
+
+.form-container {
+  margin-top: 7vh; }
+
+.tyc-container {
+  margin-bottom: 10vh; }
+
 /*# sourceMappingURL=main.css.map */
