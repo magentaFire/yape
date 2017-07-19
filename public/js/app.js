@@ -26,6 +26,15 @@ function start() {
 
     function enviaJSON(){
         var url = "http://localhost:3000/api/registerNumber"
-        $.post(url, {})
+        var phone = parseInt($("#phone").val());
+        var terms = true;
+        $.post(url, {
+            phone: phone,
+            terms: terms
+        },
+        function(data){
+            console.log(data.data.code);
+        }
+    )
     }
 }
