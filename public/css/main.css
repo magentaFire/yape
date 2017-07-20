@@ -13,14 +13,45 @@
   .btn:hover, .btn-large:hover {
     background-color: #fbd43b !important; }
 
-.phone-image {
+.phone-image, .message-image, .lock-image, .bcpcard-image {
   width: 20vw;
   margin-top: 12vh; }
 
 .form-container {
   margin-top: 7vh; }
 
-.tyc-container {
+.tyc-container, .retry-container {
   margin-bottom: 10vh; }
+
+.texto-centrado {
+  text-align: center; }
+
+.texto-verde {
+  color: #00c3a3; }
+
+.texto-gris {
+  color: #8f8f8f; }
+
+.img-icon {
+  width: 22px;
+  position: relative;
+  top: 4px; }
+
+.user-form__inputs {
+  margin: -100px 0 50px 0; }
+
+.yellow-bg {
+  background-color: #fbd43b;
+  margin-top: 33vh; }
+
+.container__img--img {
+  width: 25vw; }
+
+.form-uniline {
+  display: flex;
+  flex-direction: row; }
+
+.input-creditcard {
+  margin-bottom: 120px; }
 
 /*# sourceMappingURL=main.css.map */
