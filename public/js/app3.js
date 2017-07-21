@@ -4,16 +4,13 @@ function start() {
     var nombreVerificado = false;
     var emailVerificado = false;
     var keyVerificado = false;
-    var usuarioGuardado = "";
-    var emailGuardado = "";
-    var passwordGuardado = "";
 
     $("#userName").keyup(verificaNombre);
     $("#userEmail").keyup(verificaEmail);
     $("#userKey").keyup(verificaKey);
     $("#btnContinuar1").click(function(){
-        localStorage.setItem("nombre", $("#userName").val());
-        localStorage.setItem("email_usuario", $("#userEmail").val());
+        // localStorage.setItem("nombre", $("#userName").val());
+        // localStorage.setItem("email_usuario", $("#userEmail").val());
         localStorage.setItem("clave_usuario", $("#userKey").val());
         location.href = "yellowscreen.html";
     })
@@ -41,7 +38,7 @@ function start() {
     }
 
     function verificaKey(){
-        if($("#userKey").val().match(/^[0-9]+$/) && $("#userKey").val().length === 6){
+        if($("#userKey").val().match(/^[0-9]+$/) && $("#userKey").val().length == 6){
             keyVerificado = true;
             console.log("key ok");
         }
