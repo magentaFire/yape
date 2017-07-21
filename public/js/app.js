@@ -1,14 +1,7 @@
 $(document).ready(start);
 
 function start() {
-    var usuario = {
-        nombre: "",
-        email: "",
-        password: "",
-        codigo: "",
-    };
-    var usuarioLocalStorage = JSON.stringify(usuario);
-
+    var codigoGuardado = "";
     $('.carousel.carousel-slider').carousel({ fullWidth: true });
     $('.carousel.carousel-slider').css({
         "height": "46vh"
@@ -41,13 +34,11 @@ function start() {
             terms: terms
         },
         function(data){
-            var codigo = data.data.code;
-            console.log(data.data.code);
-            var userCode = usuario.codigo = data.data.code;
-            localStorage.setItem("usuario", data.data.code);
-            var usuarioGuardado = localStorage.getItem("usuario");
-            console.log(usuarioGuardado);
+            var codigoAGuardar = data.data.code;
+            var numeroTelefonico = $("#phone").val();
+            localStorage.setItem("codigo", codigoAGuardar);
+            localStorage.setItem("num_telefono", numeroTelefonico);
         })
-        // location.href = "ingresacodigo.html";
+        location.href = "ingresacodigo.html";
     }
 }
